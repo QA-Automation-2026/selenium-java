@@ -25,7 +25,6 @@ public class ListClass {
         for (String obj : demo)
             System.out.println(obj+"");
         {
-
             demo.set(0, "Audi");//0 is first position and Audi is new value....volvo is replaced with Audi
            System.out.println("set values"+demo.get(3));//set values toyoto
             System.out.println(demo.isEmpty());//checking list is empty "false"

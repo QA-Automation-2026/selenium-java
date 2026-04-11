@@ -44,7 +44,6 @@ public class listClassDemo {
         System.out.println("Print values");
         demo.add(null);
 
-
         for(int obj : demo){
             System.out.print(obj+"  ");
         }
