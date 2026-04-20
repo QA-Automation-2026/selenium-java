@@ -3,7 +3,9 @@ package SixthApril;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class listClassDemo {
 
@@ -22,31 +24,49 @@ public class listClassDemo {
         demo.add(0,15); //1
         demo.add(25); //4
         demo.add(30); //5
+        demo.add(30);
         demo.add(0,75);
 
         //75, 15,1,5,25,30
         //  -5,1,5,25,30
 
+//
+//        System.out.println(demo.size());
+//
+//        System.out.println(demo.get(demo.size()-1));
+//        //15,1,5,25,30 = 5
+//        // 0,1,2,3,4
+//
+//        demo.set(1,-5);
+//        System.out.println("Set values "+ demo.get(1));
+//
+//        System.out.println(demo.isEmpty());
+//
+//        System.out.println(demo.size());
+//        demo.remove(0);
+//        System.out.println("Print values");
+//        demo.add(null);
+//
+//        for(int obj : demo){
+//            System.out.print(obj+"  ");
+//        }
 
-        System.out.println(demo.size());
+        Set<Object> setDemo = new HashSet<>();
+        setDemo.add(1);
+        setDemo.add(1);
+        setDemo.add(2);
+        setDemo.add(2);
+        setDemo.add(3);
+        System.out.println(setDemo.size());
+        setDemo.remove(3);
+        System.out.println(setDemo.size());
 
-        System.out.println(demo.get(demo.size()-1));
-        //15,1,5,25,30 = 5
-        // 0,1,2,3,4
+        System.out.println(setDemo.contains(3));
 
-        demo.set(1,-5);
-        System.out.println("Set values "+ demo.get(1));
+        System.out.println(setDemo.isEmpty());
 
-        System.out.println(demo.isEmpty());
+        setDemo.clear();
 
-        System.out.println(demo.size());
-        demo.remove(0);
-        System.out.println("Print values");
-        demo.add(null);
-
-        for(int obj : demo){
-            System.out.print(obj+"  ");
-        }
-
+        System.out.println(setDemo.size());
     }
 }
