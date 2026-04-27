@@ -26,14 +26,12 @@ public class ListClass {
             System.out.println(obj+"");
         {
             demo.set(0, "Audi");//0 is first position and Audi is new value....volvo is replaced with Audi
-           System.out.println("set values"+demo.get(3));//set values toyoto
+            System.out.println("set values"+demo.get(3));//set values toyoto
             System.out.println(demo.isEmpty());//checking list is empty "false"
             demo.remove(5);
             //System.out.println(demo.remove(5));//Remove element at index 5 again (Audi)
             System.out.println("print values");
            demo.add(null);
-
-
         }
 
 
