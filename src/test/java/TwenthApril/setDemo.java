@@ -70,9 +70,6 @@ public class setDemo {
         *
         * */
 
-        while(i.hasNext()){
-            Object value = i.next();
-            System.out.println(value);
-        }
+
     }
 }
