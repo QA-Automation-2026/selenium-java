@@ -48,5 +48,14 @@ public class mapDemo {
         // vijayawada   65896       yellow
         // vizag        6555        blue
         // amaravathi   2456        purple
+
+
     }
+    public static void  practice(){
+
+
+    }
+
+
 }
+
