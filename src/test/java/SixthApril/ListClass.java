@@ -29,7 +29,7 @@ public class ListClass {
             System.out.println("set values"+demo.get(3));//set values toyoto
             System.out.println(demo.isEmpty());//checking list is empty "false"
             demo.remove(5);
-            //System.out.println(demo.remove(5));//Remove element at index 5 again (Audi)
+            //System.out.println(demo.remove(5));//Remove element at index 5 again (Audi)git
             System.out.println("print values");
            demo.add(null);
         }
