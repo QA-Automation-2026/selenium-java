@@ -19,6 +19,7 @@ public class flipkarHomePage {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
     }
 
+
     public static boolean isElementDisplayed(WebDriver driver, By by){
         try{
             driver.findElement(by).isDisplayed();
