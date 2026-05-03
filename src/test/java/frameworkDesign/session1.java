@@ -15,13 +15,14 @@ import pages.fashion;
 import java.time.Duration;
 
 public class session1 {
-    WebDriver driver = new EdgeDriver();
 
-    @Test
-    public void verifyFlipkartFunctionality(){
 
+       WebDriver driver = new EdgeDriver();
+
+        @Test
+        public void verifyflipkartfunctionality()
+        {
         driver.manage().window().maximize();
-
         HomePage.launchFlipkartApplication(driver,"https://www.flipkart.com/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  // implicit wait
 //        driver.findElement(By.xpath("(//div[text()='Location not set']/../../../../../../../../../../../..//img[@alt='Image'])[2]")).isDisplayed();
