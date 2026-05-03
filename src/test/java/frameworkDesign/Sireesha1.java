@@ -31,7 +31,7 @@ public class Sireesha1 {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("////h1[text()='Appliances']")));
        driver.findElement(By.xpath("//h1[text()='Appliances']")).isDisplayed();
 
-        driver.findElements(By.xpath("//a[text()='Grocery']")).click();
+        driver.findElements(By.xpath("//a[text()='Grocery']"));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[text()='Grocery & Household Essentials']")));
         driver.findElement(By.xpath("//h1[text()='Grocery & Household Essentials']")).isDisplayed();
     }
