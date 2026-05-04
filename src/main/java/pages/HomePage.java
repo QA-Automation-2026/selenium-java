@@ -15,17 +15,14 @@ public class HomePage {
         driver.get(url);
     }
 
-
     public static void shouldVerifyFlipkartLogoisDisplayed(WebDriver driver){
         common.waitForElementVisible(driver,Hdr_FlipkartLogo);
         Assert.assertTrue(common.isElementDisplayed(driver,Hdr_FlipkartLogo));
     }
-
     public static void clickOnFashionButton(WebDriver driver){
         common.waitForElementVisible(driver,Btn_Fashion);
         common.tap(driver,Btn_Fashion);
     }
-
     public static void clickOnMobileButton(WebDriver driver){
         common.waitForElementVisible(driver,Btn_Mobile);
         common.tap(driver,Btn_Mobile);
@@ -34,6 +31,5 @@ public class HomePage {
         common.waitForElementVisible(driver,Btn_Cross);
         common.tap(driver,Btn_Cross);
     }
-
 
 }

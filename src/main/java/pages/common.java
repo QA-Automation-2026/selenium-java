@@ -22,11 +22,13 @@ public class common {
             return false;
         }
     }
-
     public static void tap(WebDriver driver,By element){
         driver.findElement(element).click();
     }
     public static void quitBrowser(WebDriver driver){
         driver.quit();
+    }
+    public static void enterText(WebDriver driver,By by,String input){
+        driver.findElement(by).sendKeys(input);
     }
 }
